@@ -1,0 +1,18 @@
+html {
+    background: url("/img/技能背景.jpg") no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.wrap h1 {
+    text-align: center;
+}
+
+.wrap .skills-title {
+    margin-bottom: 8em;
+}
+
+.wrap .skills-title h2 {
+    margin-left: 40px;
+}

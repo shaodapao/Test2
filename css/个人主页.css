@@ -1,0 +1,121 @@
+a {
+    color: #c40b00;
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: 1500px;
+}
+
+.title {
+    padding-left: 23em;
+}
+
+
+/* - 侧边栏 */
+.sidebar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 250px;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #4b4b4b;
+}
+
+.sidebar .avatar {
+    width: 150px;
+    height: 150px;
+    margin: 2em auto;
+    background: #fff;
+    border-radius: 100%;
+    border: #fff 5px solid;
+    transition: transform 0.5s;
+}
+
+.sidebar .avatar:hover {
+    transform: rotate(1turn);
+}
+
+.sidebar .avatar img {
+    border-radius: 100%;
+}
+
+/* -- 侧边栏导航 */
+.sidebar .nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.sidebar .nav a {
+    color: #fff;
+    padding: 1em;
+    display: block;
+    text-align: center;
+    transition: background .3s, box-shadow .3s;
+}
+
+.sidebar .nav a:hover {
+    background: rgba(0, 0, 0, .2);
+}
+
+main {
+    margin-left: 250px;
+}
+
+.row .col-l-4 {
+    position: relative;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+p {
+    line-height: 1.8em;
+    margin-bottom: 1em;
+}
+
+main section {
+    padding: 1em 0;
+    position: relative;
+}
+
+main footer p {
+    text-align: center;
+}
+
+.wrap .row .col-l-4 h2 {
+    padding-left: 22em;
+}
+
+html {
+    background: url("/img/主页背景.jpg") no-repeat center;
+    height: 100%;
+    width: 100%;
+    /*把背景图片放大到适合元素容器的尺寸，图片比例不变*/
+    background-size: cover;
+}
+
+.row .col-l-4 span {
+    margin-right: 9em;
+}
+
+.row .col-l-4 .img {
+    float: right;
+
+}
+
+.row .col-l-4 {
+    overflow: hidden;
+}
+
+.row .col-l-4 .skill ul {
+    display: inline-block;
+}
+
+.row .col-l-4 .skill ul li {
+    margin-bottom: 4em;
+}
